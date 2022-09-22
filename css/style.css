@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(222, 184, 135);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 99, 71);
+}
+.container {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-block label {
+  display: block;
+  text-align: center;
+}
+
+
+.item-block input {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.selectBox {
+  text-align: center;
+}
+
+.corpref{
+  text-align: center;
+}
+
+.corpref label, input{
+  display: block;
+  text-align: center;
+}
+
+input , select{
+  margin-bottom: 1.3em;
+}
+
+.submitBtn {
+  text-align: center;
+}

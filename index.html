@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Avaliação U01 M02 FS10</title>
+</head>
+<body>
+  <h1>Avaliação U01 M02 FS10</h1>
+  <form action="http://192.168.2.138:8090/av01" target="_blank">
+  <div class="container">
+    <div class="item-block">
+      <label for="nome">Nome Completo</label>
+      <input type="text" id="nome" name="nome">
+    </div>
+    <div class="item-block">
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+  <div class="selectBox">
+    <label for="marca">Marca de Carro</label>
+    <select id="marca" name="marca">
+      <option value="Bentley">Bentley</option>
+      <option value="BMW">BMW</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Porsche">Porsche</option>
+      <option value="Toyota">Toyota</option>
+    </select>
+  </div>
+  <div class="item-block">
+    <label for="velocidade">Velocidade Máxima (100 e 200)</label>
+  <input type="range" id="velocidade" name="velocidade" min="100" max="200" step="20"
+   oninput="updateQuantityRangeStep('quantity-range', this.value)">
+  </div>
+  <div class="corPref">
+    <p>Cor Preferida</p>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+  </div>
+  <div class="submitBtn">
+    <input type="submit" value="Cadastrar">
+  </div>
+  <div class="submitBtn">
+    <input type="reset" value="Limpar">
+  </div>
+</div>
+  </form>
+</body>
+</html>
