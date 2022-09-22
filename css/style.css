@@ -6,43 +6,23 @@ h1 {
   justify-content: center;
   color: rgb(255, 99, 71);
 }
+
 .container {
   display: grid;
-  flex-wrap: wrap;
   justify-content: center;
+  text-align: center;;
 }
-
-.item-block label {
+.item input, select{
   display: block;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
 }
 
-
-.item-block input {
-  display: block;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  justify-items: center;
+.corPref p {
+  margin-bottom: 0px;
 }
 
-.selectBox {
-  text-align: center;
-}
-
-.corpref{
-  text-align: center;
-}
-
-.corpref label, input{
-  display: block;
-  text-align: center;
-}
-
-input , select{
-  margin-bottom: 1.3em;
-}
-
-.submitBtn {
-  text-align: center;
+.btn{
+  margin-top: 15px;
 }
